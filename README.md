@@ -310,16 +310,16 @@ The controller automatically validates parameters based on type definitions in `
 
 The vis module is responsible for:
 
-- ✅ Routing visualization requests
-- ✅ Validating feed and multigraph access
-- ✅ Rendering visualization templates
-- ✅ Managing multigraph CRUD operations
-- ✅ Providing visualization configuration interface
-- ✅ Supporting embedded and standalone views
-- ✅ Handling external API access via read-only keys
+- Routing visualization requests
+- Validating feed and multigraph access
+- Rendering visualization templates
+- Managing multigraph CRUD operations
+- Providing visualization configuration interface
+- Supporting embedded and standalone views
+- Handling external API access via read-only keys
 
 The module does NOT handle:
-- ❌ Feed data storage (handled by feed module)
-- ❌ Input processing (handled by input module)
-- ❌ User authentication (handled by core emoncms)
-- ❌ Dashboard layout (handled by dashboard module)
+- Feed data storage (handled by feed module)
+- Input processing (handled by input module)
+- User authentication (handled by core emoncms)
+- Dashboard layout (handled by dashboard module)
