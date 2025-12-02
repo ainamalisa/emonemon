@@ -17,23 +17,7 @@ The module handles routing, parameter validation, authentication, and rendering 
 
 Understanding how data moves through the visualization system:
 
-```
-1. Input → Data enters emoncms via input API
-   ↓
-2. Feed Engine → Data is stored/processed in feed engine (PhpTimeSeries, PhpFina, etc.)
-   ↓
-3. Visualization Request → User accesses route: /vis/{type}?feedid=X or /vis/{type}?mid=Y
-   ↓
-4. Controller Processing → vis_controller.php validates parameters, checks authentication
-   ↓
-5. Parameter Extraction → URL parameters extracted and validated (feedid, mid, embed, apikey, etc.)
-   ↓
-6. Visualization Render → Appropriate visualization file from visualisations/ directory is loaded
-   ↓
-7. Data Fetch → JavaScript fetches feed data via Feed API using apikey
-   ↓
-8. Graph Display → Flot.js or other library renders the visualization in the browser
-```
+![data flow diagram vis](DFD_SME.png)
 
 **Key Components in Data Flow:**
 - **vis_controller.php**: Routes requests, validates parameters, handles authentication
