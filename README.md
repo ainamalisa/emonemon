@@ -17,7 +17,7 @@ The module handles routing, parameter validation, authentication, and rendering 
 
 Understanding how data moves through the visualization system:
 
-![data flow diagram vis](DFD_SME.drawio.png)
+![data flow diagram vis](DFDSME.drawio.png)
 
 **Key Components in Data Flow:**
 - **vis_controller.php**: Routes requests, validates parameters, handles authentication
