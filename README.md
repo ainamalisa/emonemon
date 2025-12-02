@@ -275,9 +275,9 @@ We then materialize the zones where it's not good to be:
 
 From a practical point of view, you just have to build multigraphs in emoncms and use them in the psychrometric visualization to appreciate the comfort level of your home.
 
-![creating a multigraph](images/multigraph.png)
+![creating a multigraph](multigraph.png)
 
-![using the psychrograph](images/psychrograph.png)
+![using the psychrograph](psychrograph.png)
 
 More details on [1](https://sustainabilityworkshop.venturewell.org/node/1195.html) and [2](https://sustainabilityworkshop.venturewell.org/node/1195.html)
 
